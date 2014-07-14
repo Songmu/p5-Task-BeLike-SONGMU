@@ -10,6 +10,7 @@ requires "L";
 
 # Authoring Tools
 requires "Minilla";
+requires "CPAN::Uploader";
 requires "App::scan_prereqs_cpanfile";
 requires "Spellunker";
 
