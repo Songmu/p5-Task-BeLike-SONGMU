@@ -30,12 +30,13 @@ sub regenerate_cpanfile {
     open my $cpanfile, '>', 'cpanfile' or die $!;
 
     while (<$fh>) {
-        if (/=head[2-6] L<([^|>]+)>\s*(v?[\.0-9]*)$/) {
+        if (/=head[2-6] L<([-_a-zA-Z0-9:]+)>\s*(v?[\.0-9]*)$/) {
             print $cpanfile qq{requires "$1"};
             print $cpanfile qq{, "$2"} if $2;
             print $cpanfile qq{;\n};
         }
         elsif (/=head[2-6] (.*)/) {
+            next if $1 =~ /plenv/;
             print $cpanfile qq{\n# $1\n};
         }
     }

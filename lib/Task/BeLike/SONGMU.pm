@@ -26,7 +26,7 @@ SONGMU's favorite modules using at work.
 
 =head3 L<App::cpanminus>
 
-=head3 L<App::plenv>
+=head3 L<plenv|https://github.com/tokuhirom/plenv>
 
 =head3 L<Perl::Build>
 

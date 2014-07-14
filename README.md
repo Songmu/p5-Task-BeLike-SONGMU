@@ -12,7 +12,7 @@ SONGMU's favorite modules using at work.
 
 ### [App::cpanminus](http://search.cpan.org/perldoc?App::cpanminus)
 
-### [App::plenv](http://search.cpan.org/perldoc?App::plenv)
+### [plenv](https://github.com/tokuhirom/plenv)
 
 ### [Perl::Build](http://search.cpan.org/perldoc?Perl::Build)
 
