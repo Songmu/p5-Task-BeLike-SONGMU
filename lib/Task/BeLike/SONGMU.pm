@@ -47,6 +47,8 @@ SONGMU's favorite modules using at work.
 
 =head3 L<CPAN::Uploader>
 
+=head3 L<Version::Next>
+
 =head3 L<App::scan_prereqs_cpanfile>
 
 =head3 L<Spellunker>
